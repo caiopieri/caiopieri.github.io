@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# intermediários do tratamento da foto (a fonte usada pelo site é photo-check.png)
+.assets
+photo-check.jpg
