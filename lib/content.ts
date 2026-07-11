@@ -46,6 +46,8 @@ export type Dictionary = {
   footer: {
     label: string;
     heading: string;
+    connect: string;
+    follow: string;
     note: string;
     rights: string;
   };
@@ -122,6 +124,8 @@ export const content: Record<Lang, Dictionary> = {
     footer: {
       label: "Contato",
       heading: "Vamos conversar.",
+      connect: "Conectar",
+      follow: "Seguir",
       note: "Feito com calma em São Paulo.",
       rights: "© 2026 Caio Amaral de Pieri",
     },
@@ -193,6 +197,8 @@ export const content: Record<Lang, Dictionary> = {
     footer: {
       label: "Contact",
       heading: "Let's talk.",
+      connect: "Connect",
+      follow: "Follow",
       note: "Calmly made in São Paulo.",
       rights: "© 2026 Caio Amaral de Pieri",
     },
