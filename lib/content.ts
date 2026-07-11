@@ -37,6 +37,7 @@ export type Dictionary = {
     quote: string;
     body: string;
     caption: string;
+    cv: string;
   };
   education: {
     label: string;
@@ -95,6 +96,7 @@ export const content: Record<Lang, Dictionary> = {
       quote: "Quanto mais aprendo, mais claro fica o quanto ainda falta.",
       body: "Respiro tecnologia desde muito pequeno. Cresci desmontando ideias para entender como funcionam — e construindo projetos para descobrir se entendi mesmo. Na escola, liderei projetos do começo ao fim e representei times em competições como a Olimpíada Nacional de Aplicativos, o Solve for Tomorrow Brasil, da Samsung, e hackathons. Sigo do mesmo jeito: construindo, errando cedo e aprendendo.",
       caption: "Caio Amaral de Pieri — 2025",
+      cv: "Baixar currículo",
     },
     education: {
       label: "Formação",
@@ -168,6 +170,7 @@ export const content: Record<Lang, Dictionary> = {
       quote: "The more I learn, the clearer it becomes how much is still left.",
       body: "I have been breathing technology since I was very young. I grew up taking ideas apart to understand how they work — and building projects to find out whether I really did. At school, I led projects end to end and represented teams in competitions like the Brazilian National App Olympiad, Samsung's Solve for Tomorrow Brazil, and hackathons. I still work the same way: building, failing early, and learning.",
       caption: "Caio Amaral de Pieri — 2025",
+      cv: "Download résumé",
     },
     education: {
       label: "Education",

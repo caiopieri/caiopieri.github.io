@@ -434,6 +434,29 @@ button {
   margin: 0;
 }
 
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.72rem 1.2rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.cv-btn:hover {
+  background: #333330;
+}
+
+.cv-btn:active {
+  transform: scale(0.98);
+}
+
 /* ---------- education ---------- */
 
 .edu-grid {

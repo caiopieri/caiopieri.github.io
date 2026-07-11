@@ -109,7 +109,16 @@ export default function Page() {
             </Reveal>
             <div className="about-grid">
               <Reveal delay={120}>
-                <p className="about-body">{t.about.body}</p>
+                <div className="about-text">
+                  <p className="about-body">{t.about.body}</p>
+                  <a
+                    className="cv-btn mono"
+                    href="/Caio_Amaral_de_Pieri_CV.pdf"
+                    download="Caio_Amaral_de_Pieri_CV.pdf"
+                  >
+                    {t.about.cv} ↓
+                  </a>
+                </div>
               </Reveal>
               <Reveal>
                 <figure className="photo-figure">
