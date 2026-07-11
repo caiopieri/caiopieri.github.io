@@ -5,6 +5,7 @@ type Project = {
   meta: string;
   desc: string;
   href: string;
+  embed?: string;
 };
 
 type School = {
@@ -56,6 +57,7 @@ export type Dictionary = {
 
 const LINKEDIN = "https://www.linkedin.com/in/caiopieri/";
 const GITHUB = "https://github.com/caiopieri";
+const FLINT = "https://flintapp.vercel.app";
 
 export const content: Record<Lang, Dictionary> = {
   pt: {
@@ -81,7 +83,8 @@ export const content: Record<Lang, Dictionary> = {
           name: "Flint",
           meta: "iOS · iPadOS · Open source",
           desc: "App de notas que une edição em Markdown, escrita à mão nativa com Apple Pencil e IA local ou na nuvem — em um único lugar, com privacidade em primeiro lugar.",
-          href: GITHUB,
+          href: FLINT,
+          embed: FLINT,
         },
         {
           name: "Kortex",
@@ -155,7 +158,8 @@ export const content: Record<Lang, Dictionary> = {
           name: "Flint",
           meta: "iOS · iPadOS · Open source",
           desc: "A note-taking app that brings together Markdown editing, native Apple Pencil handwriting, and local or cloud AI — in a single, privacy-first place.",
-          href: GITHUB,
+          href: FLINT,
+          embed: FLINT,
         },
         {
           name: "Kortex",

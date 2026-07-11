@@ -71,11 +71,28 @@ export default function Page() {
                         <span />
                         <span />
                         <span />
+                        {p.embed && (
+                          <span className="chrome-url mono">
+                            {p.embed.replace(/^https?:\/\//, "")}
+                          </span>
+                        )}
                       </div>
-                      <div className="visual-body">
-                        <span className="visual-name serif">{p.name}</span>
-                        <span className="visual-meta mono">{p.meta}</span>
-                      </div>
+                      {p.embed ? (
+                        <div className="visual-embed">
+                          <iframe
+                            src={p.embed}
+                            title={`Preview — ${p.name}`}
+                            loading="lazy"
+                            tabIndex={-1}
+                            sandbox="allow-scripts allow-same-origin"
+                          />
+                        </div>
+                      ) : (
+                        <div className="visual-body">
+                          <span className="visual-name serif">{p.name}</span>
+                          <span className="visual-meta mono">{p.meta}</span>
+                        </div>
+                      )}
                     </div>
                     <div className="project-info">
                       <p className="project-index mono">
