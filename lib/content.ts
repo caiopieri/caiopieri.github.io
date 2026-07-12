@@ -58,6 +58,7 @@ export type Dictionary = {
 const LINKEDIN = "https://www.linkedin.com/in/caiopieri/";
 const GITHUB = "https://github.com/caiopieri";
 const FLINT = "https://flintapp.vercel.app";
+const KORTEX = "https://kortex-site.vercel.app";
 
 export const content: Record<Lang, Dictionary> = {
   pt: {
@@ -90,7 +91,8 @@ export const content: Record<Lang, Dictionary> = {
           name: "Kortex",
           meta: "IA · Orquestração multiagente",
           desc: "Um simulador de organização: recebe um objetivo, monta o time de especialistas que ele exige e conduz o processo inteiro — com gates e evidências — até entregar software, specs e design.",
-          href: GITHUB,
+          href: KORTEX,
+          embed: KORTEX,
         },
       ],
     },
@@ -165,7 +167,8 @@ export const content: Record<Lang, Dictionary> = {
           name: "Kortex",
           meta: "AI · Multi-agent orchestration",
           desc: "An organization simulator: given a goal, it assembles the team of specialists the goal requires and runs the whole process — with gates and evidence — until it ships software, specs, and design.",
-          href: GITHUB,
+          href: KORTEX,
+          embed: KORTEX,
         },
       ],
     },

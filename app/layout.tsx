@@ -23,10 +23,36 @@ const mono = IBM_Plex_Mono({
   display: "swap",
 });
 
+const TITLE = "Caio Amaral de Pieri — Entusiasta de tecnologia";
+const DESC =
+  "Portfólio de Caio Amaral de Pieri. Projetos que nascem de curiosidade e viram software de verdade — Flint, Kortex e o que vier depois.";
+
 export const metadata: Metadata = {
-  title: "Caio Amaral de Pieri — Entusiasta de tecnologia",
-  description:
-    "Portfólio de Caio Amaral de Pieri. Projetos que nascem de curiosidade e viram software de verdade — Flint, Kortex e o que vier depois.",
+  metadataBase: new URL("https://caiopieri.github.io"),
+  title: TITLE,
+  description: DESC,
+  openGraph: {
+    title: TITLE,
+    description: DESC,
+    url: "https://caiopieri.github.io",
+    siteName: "Caio Amaral de Pieri",
+    locale: "pt_BR",
+    type: "website",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Caio Amaral de Pieri — Entusiasta de tecnologia",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESC,
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
