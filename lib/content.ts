@@ -58,7 +58,7 @@ export type Dictionary = {
 const LINKEDIN = "https://www.linkedin.com/in/caiopieri/";
 const GITHUB = "https://github.com/caiopieri";
 const FLINT = "https://flintapp.vercel.app";
-const KORTEX = "https://kortex-site.vercel.app";
+const KORTEX = "https://getkortex.vercel.app";
 
 export const content: Record<Lang, Dictionary> = {
   pt: {
