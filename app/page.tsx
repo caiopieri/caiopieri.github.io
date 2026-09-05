@@ -128,13 +128,13 @@ export default function Page() {
               <Reveal delay={120}>
                 <div className="about-text">
                   <p className="about-body">{t.about.body}</p>
-                  <a
+                  {/* <a
                     className="cv-btn mono"
                     href="/Caio_Amaral_de_Pieri_CV.pdf"
                     download="Caio_Amaral_de_Pieri_CV.pdf"
                   >
                     {t.about.cv} ↓
-                  </a>
+                  </a> */}
                 </div>
               </Reveal>
               <Reveal>
