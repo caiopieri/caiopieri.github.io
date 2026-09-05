@@ -25,7 +25,7 @@ const mono = IBM_Plex_Mono({
 
 const TITLE = "Caio Amaral de Pieri — Entusiasta de tecnologia";
 const DESC =
-  "Portfólio de Caio Amaral de Pieri. Projetos que nascem de curiosidade e viram software de verdade — Flint, Kortex e o que vier depois.";
+  "Portfólio de Caio Amaral de Pieri. Projetos que nascem de curiosidade e viram software de verdade — Plenior, Flint e o que vier depois.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://caiopieri.github.io"),

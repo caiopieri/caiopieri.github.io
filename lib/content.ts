@@ -58,7 +58,7 @@ export type Dictionary = {
 const LINKEDIN = "https://www.linkedin.com/in/caiopieri/";
 const GITHUB = "https://github.com/caiopieri";
 const FLINT = "https://flintapp.vercel.app";
-const KORTEX = "https://getkortex.vercel.app";
+const PLENIOR = "https://plenior.dev";
 
 export const content: Record<Lang, Dictionary> = {
   pt: {
@@ -81,18 +81,18 @@ export const content: Record<Lang, Dictionary> = {
       view: "Ver projeto",
       items: [
         {
+          name: "Plenior",
+          meta: "IA · Fluxos de agentes",
+          desc: "Organize agentes, ferramentas e entregas em um processo visual para desenvolvimento de software — com gates de teste, evidências e rastreabilidade.",
+          href: PLENIOR,
+          embed: PLENIOR,
+        },
+        {
           name: "Flint",
           meta: "iOS · iPadOS · Open source",
           desc: "App de notas que une edição em Markdown, escrita à mão nativa com Apple Pencil e IA local ou na nuvem — em um único lugar, com privacidade em primeiro lugar.",
           href: FLINT,
           embed: FLINT,
-        },
-        {
-          name: "Kortex",
-          meta: "IA · Orquestração multiagente",
-          desc: "Um simulador de organização: recebe um objetivo, monta o time de especialistas que ele exige e conduz o processo inteiro — com gates e evidências — até entregar software, specs e design.",
-          href: KORTEX,
-          embed: KORTEX,
         },
       ],
     },
@@ -157,18 +157,18 @@ export const content: Record<Lang, Dictionary> = {
       view: "View project",
       items: [
         {
+          name: "Plenior",
+          meta: "AI · Agent workflows",
+          desc: "Organize agents, tools, and deliverables in a visual process for software development — with test gates, evidence, and traceability.",
+          href: PLENIOR,
+          embed: PLENIOR,
+        },
+        {
           name: "Flint",
           meta: "iOS · iPadOS · Open source",
           desc: "A note-taking app that brings together Markdown editing, native Apple Pencil handwriting, and local or cloud AI — in a single, privacy-first place.",
           href: FLINT,
           embed: FLINT,
-        },
-        {
-          name: "Kortex",
-          meta: "AI · Multi-agent orchestration",
-          desc: "An organization simulator: given a goal, it assembles the team of specialists the goal requires and runs the whole process — with gates and evidence — until it ships software, specs, and design.",
-          href: KORTEX,
-          embed: KORTEX,
         },
       ],
     },
