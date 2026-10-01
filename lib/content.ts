@@ -4,7 +4,7 @@ type Project = {
   name: string;
   meta: string;
   desc: string;
-  href: string;
+  href?: string;
   embed?: string;
 };
 
@@ -94,13 +94,28 @@ export const content: Record<Lang, Dictionary> = {
           href: FLINT,
           embed: FLINT,
         },
+        {
+          name: "ViaCatholica",
+          meta: "Em progresso · Electron · TypeScript",
+          desc: "Ecossistema paroquial começando pelos slides da missa — MVP em Electron e TypeScript. Som assistido, Servir e sites vêm depois.",
+        },
+        {
+          name: "EletroFy",
+          meta: "Em progresso · Cloudflare Workers",
+          desc: "Loja construída em Cloudflare Workers com Hono, JSX e TypeScript — commerce enxuto, rodando no edge.",
+        },
+        {
+          name: "Lina",
+          meta: "Planejado · WhatsApp",
+          desc: "Assistente no WhatsApp para leigos: agenda, finanças e lembretes — uma secretária, não um agente frontier.",
+        },
       ],
     },
     about: {
       label: "Sobre",
       quote: "Quanto mais aprendo, mais claro fica o quanto ainda falta.",
       body: "Respiro tecnologia desde muito pequeno. Cresci desmontando ideias para entender como funcionam — e construindo projetos para descobrir se entendi mesmo. Na escola, liderei projetos do começo ao fim e representei times em competições como a Olimpíada Nacional de Aplicativos, o Solve for Tomorrow Brasil, da Samsung, e hackathons. Sigo do mesmo jeito: construindo, errando cedo e aprendendo.",
-      caption: "Caio Amaral de Pieri — 2025",
+      caption: "Caio Amaral de Pieri — 2026",
       cv: "Baixar currículo",
     },
     education: {
@@ -170,13 +185,28 @@ export const content: Record<Lang, Dictionary> = {
           href: FLINT,
           embed: FLINT,
         },
+        {
+          name: "ViaCatholica",
+          meta: "In progress · Electron · TypeScript",
+          desc: "A parish ecosystem starting with Mass slides — Electron/TypeScript MVP. Assisted sound, Servir, and sites come next.",
+        },
+        {
+          name: "EletroFy",
+          meta: "In progress · Cloudflare Workers",
+          desc: "A store built on Cloudflare Workers with Hono, JSX, and TypeScript — lean commerce running at the edge.",
+        },
+        {
+          name: "Lina",
+          meta: "Planned · WhatsApp",
+          desc: "A WhatsApp assistant for everyday people: calendar, finances, and reminders — a secretary, not a frontier agent.",
+        },
       ],
     },
     about: {
       label: "About",
       quote: "The more I learn, the clearer it becomes how much is still left.",
       body: "I have been breathing technology since I was very young. I grew up taking ideas apart to understand how they work — and building projects to find out whether I really did. At school, I led projects end to end and represented teams in competitions like the Brazilian National App Olympiad, Samsung's Solve for Tomorrow Brazil, and hackathons. I still work the same way: building, failing early, and learning.",
-      caption: "Caio Amaral de Pieri — 2025",
+      caption: "Caio Amaral de Pieri — 2026",
       cv: "Download résumé",
     },
     education: {
