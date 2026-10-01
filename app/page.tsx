@@ -100,14 +100,16 @@ export default function Page() {
                       </p>
                       <h3>{p.name}</h3>
                       <p className="project-desc">{p.desc}</p>
-                      <a
-                        className="btn mono"
-                        href={p.href}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {t.projects.view} →
-                      </a>
+                      {p.href && (
+                        <a
+                          className="btn mono"
+                          href={p.href}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {t.projects.view} →
+                        </a>
+                      )}
                     </div>
                   </article>
                 </Reveal>
